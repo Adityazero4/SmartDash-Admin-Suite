@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Admin Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the **Admin Panel** project! This admin panel is built using React and Material-UI, featuring a responsive design, theming options, and various modules for effective management.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Responsive Design**: The dashboard adapts to different screen sizes for a seamless user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Theming**: Choose between light and dark themes using the `@mui/material` library.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Navigation**: Sidebar navigation for quick access to dashboard, team, contacts, invoices, forms, calendar, FAQ, and charts.
 
-### `npm test`
+- **Dashboard**: Centralized view for key metrics and system overview.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Team Management**: Manage team members efficiently.
 
-### `npm run build`
+- **Contacts**: Organize and view contact information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Invoices**: Track financial transactions with a dedicated section.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Form Handling**: Interact with and submit forms for data processing.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Calendar Integration**: Utilizes FullCalendar library for event and schedule management.
 
-### `npm run eject`
+- **Data Visualization**: Visualize data with bar charts, line charts, pie charts, and geographical maps using the `@nivo` library.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the Repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone <repository-url>
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install Dependencies:**
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Start the Development Server:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+4. **View the Dashboard:**
+   Open your browser and go to `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Theming
 
-### Analyzing the Bundle Size
+- Toggle between light and dark themes to suit your preferences.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Routing
 
-### Making a Progressive Web App
+- Navigation between sections is handled by `react-router-dom` for smooth transitions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Chart Libraries
 
-### Advanced Configuration
+- Data visualization is powered by the `@nivo` library, offering diverse chart components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deployment
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The New Dashboard Admin Panel is deployed on Netlify. View the live deployment [here](https://aditya-admin-panel.netlify.app/).
