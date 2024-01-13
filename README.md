@@ -1,8 +1,8 @@
-# Admin Panel
+# SmartDash Admin Suite
 
 ## Overview
 
-Welcome to the **Admin Panel** project! This admin panel is built using React and Material-UI, featuring a responsive design, theming options, and various modules for effective management.
+Welcome to the **SmartDash Admin Suite** project! This admin panel is built using React and Material-UI, featuring a responsive design, theming options, and various modules for effective management.
 
 ## Features
 
